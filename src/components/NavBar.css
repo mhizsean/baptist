@@ -1,0 +1,52 @@
+
+.logo-main {
+    background-color: red;
+    height: 50px;
+    float: left;
+    padding: 2px;
+
+}
+.logo-main h2 {
+   color: black;
+   text-transform: uppercase;
+   font-size:45px;
+    font-weight: bolder;
+}
+.logo {
+    margin-top: -16px;
+    width: 45px;
+    height:45px;
+    
+}
+
+h2{
+    color: black;
+}
+.nav-main {
+    background: black;
+    
+}
+
+.nav-main ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.nav-main a {
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: burlywood;
+}
+
+.nav-main a:hover {
+    background: aliceblue;
+    color: black;
+}

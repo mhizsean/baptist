@@ -1,0 +1,46 @@
+img{
+ width: 100%;
+ height: 550px;
+ 
+}
+.upcoming-event {
+    padding: 50px;
+    
+}
+
+.upcoming-event p {
+    text-align: justify;
+    color: black;
+    font-size: 18px;
+}
+.detail-wrapper {
+    padding: 20px;
+    
+}
+
+.detail-wrapper h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.detail-wrapper p {
+    color: black;
+    text-align: justify;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 80px;
+    background:  #ff3006;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+
+}

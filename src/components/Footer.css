@@ -1,0 +1,132 @@
+
+p { 
+    color: rgb(88, 85, 85);
+    line-height: 25px;
+}
+
+h2,h3{
+    color: #fff;
+}
+h2 {
+    font-size: 18px;
+}
+
+.footer-top {
+    background: #111;
+    padding: 60px 0;
+}
+
+.footer-info h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 18, 18);
+    letter-spacing: 3px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.footer-info h3:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.footer-links h2 {
+    color: rgb(39, 31, 31);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.footer-links h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+}
+
+.footer-links ul li a {
+    color: rgb(46, 45, 45);
+    text-decoration: none; 
+}
+
+.footer-social h2 {
+    color: rgb(48, 40, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.footer-social h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.footer-social a {
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-social a i {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.footer-subscribe h2{
+    color: rgb(48, 40, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.footer-subscribe h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.footer-subscribe form input[type=submit] {
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.copyright {
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+}
+
+/* responsive css */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        padding: 50px 0;
+    }
+}
